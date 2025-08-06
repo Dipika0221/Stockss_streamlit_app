@@ -7,7 +7,7 @@ import seaborn as sns
 st.set_page_config(page_title="Nifty Stock Visualizer", layout="wide")
 
 # Load data
-df = pd.read_csv("../DataSets/Nifty_Stocks.csv")
+df = pd.read_csv("Nifty_Stocks.csv")
 
 # Convert Date column to datetime
 df["Date"] = pd.to_datetime(df["Date"])
